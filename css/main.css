@@ -203,8 +203,6 @@ nav .current_page_item a {
 /* Content */
 
 #content {
-    float: right;
-    width: 660px;
     padding: 0px 0px 0px 0px;
 }
 
@@ -281,8 +279,6 @@ nav .current_page_item a {
 /* Sidebar */
 
 #sidebar {
-    float: left;
-    width: 270px;
     margin: 0px;
     padding: 30px 0px 0px 0px;
 }
@@ -324,7 +320,6 @@ nav .current_page_item a {
 }
 
 #sidebar h2 {
-    height: 38px;
     padding: 0px 0px 30px 0px;
     letter-spacing: -.5px;
     font-size: 1.8em;
