@@ -49,7 +49,6 @@ main {
 }
 
 .container {
-    width: 1000px;
     margin: 0px auto;
 }
 
@@ -60,8 +59,6 @@ header{
 }
 
 #header {
-    width: 1000px;
-    height: 150px;
     margin: 0 auto;
     padding: 0px 0px;
 }
@@ -69,8 +66,6 @@ header{
 /* Logo */
 
 #logo {
-    float: left;
-    width: 300px;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
@@ -160,15 +155,11 @@ header{
 /* Menu */
 
 nav {
-    float: right;
-    width: 500px;
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
 
 nav ul {
-    float: right;
     margin: 0;
     padding: 20px 0px 0px 0px;
     list-style: none;
@@ -176,12 +167,10 @@ nav ul {
 }
 
 nav li {
-    float: left;
 }
 
 nav a {
     display: block;
-    line-height: 100px;
     margin-right: 1px;
     padding: 0px 20px 0px 20px;
     text-decoration: none;
@@ -189,7 +178,7 @@ nav a {
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: 300;
     color: #1F1F1F;
     border: none;
@@ -502,8 +491,6 @@ footer a {
 
 #banner {
     margin: 0px auto;
-    width: 1000px;
-    height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
