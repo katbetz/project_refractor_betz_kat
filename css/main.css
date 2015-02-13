@@ -539,3 +539,29 @@ footer a {
         width:80%;
     }
 }
+
+
+@media screen and (min-width:850px){
+    main{
+        overflow:auto;
+    }
+    
+    nav li {
+        width:20%;
+        display:block;
+        float:left;
+    }
+    #content{
+        padding:0 20px;
+        float:right;
+        width:60%;
+    }
+    #sidebar{
+        float:left;
+        width:30%;
+        display:block;
+    }
+    footer{
+        clear:both;
+    }
+}
