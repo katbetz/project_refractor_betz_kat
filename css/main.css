@@ -503,3 +503,14 @@ footer a {
 .list-style1 a {
     color: #7F7F7F;
 }
+
+@media screen and (min-width:560px){
+    nav li {
+        width:20%;
+        display:block;
+        float:left;
+    }
+    #page{
+        padding:0 20px;
+    }
+}
