@@ -486,6 +486,10 @@ footer a {
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
+#banner img{
+    width:100%;
+}
+
 #banner .content {
 }
 
