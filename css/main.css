@@ -520,21 +520,21 @@ footer a {
     #header{
         width:80%;
     }
-    
+
     #logo{
         float:left;
     }
-    
+
     nav{
         width:60%;
         display:block;
         float:right;
     }
-    
+
     #banner{
         max-width:1000px;
     }
-    
+
     #page{
         width:80%;
     }
@@ -545,7 +545,7 @@ footer a {
     main{
         overflow:auto;
     }
-    
+
     nav li {
         width:20%;
         display:block;
