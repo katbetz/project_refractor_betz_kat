@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #050505 url(../img/img01.jpg) repeat;
+    background: #FFFFFF url(../img/img05.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .9em;
     color: #5B5B5B;
@@ -42,10 +42,6 @@ a {
 }
 
 a:hover {
-}
-
-main {
-    background: #FFFFFF url(../img/img05.jpg) repeat;
 }
 
 .container {
@@ -428,6 +424,7 @@ nav .current_page_item a {
 /* Footer */
 
 footer {
+    background: #050505 url(../img/img01.jpg) repeat;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
@@ -542,10 +539,6 @@ footer a {
 
 
 @media screen and (min-width:850px){
-    main{
-        overflow:auto;
-    }
-
     nav li {
         width:20%;
         display:block;
