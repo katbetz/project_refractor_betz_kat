@@ -44,10 +44,6 @@ a {
 a:hover {
 }
 
-.container {
-    margin: 0px auto;
-}
-
 /* Header */
 
 header{
@@ -66,36 +62,14 @@ header{
     margin: 0;
     padding: 0;
     color: #FFFFFF;
-}
-
-#logo h1, #logo p {
-}
-
-#logo h1 {
     line-height: 120px;
     letter-spacing: -2px;
     font-size: 3.8em;
 }
 
-#logo h1 a {
+#logo a {
     color: #1F1F1F;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
-}
-
-#logo p {
-    margin: 0;
-    padding: 0px 0 0 0px;
-    letter-spacing: -1px;
-    font: normal 18px Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-    color: #8E8E8E;
-}
-
-#logo p a {
-    color: #8E8E8E;
-}
-
-#logo a {
     border: none;
     background: none;
     text-decoration: none;
