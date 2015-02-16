@@ -169,13 +169,6 @@ nav a:hover, nav .current_page_item a {
 nav .current_page_item a {
 }
 
-/* Page */
-
-#page {
-    margin: 0 auto;
-    padding: 10px 5px;
-}
-
 /* Content */
 
 #content {
@@ -480,9 +473,6 @@ footer a {
         display:block;
         float:left;
     }
-    #page{
-        padding:0 20px;
-    }
 }
 
 @media screen and (min-width:750px){
@@ -498,10 +488,6 @@ footer a {
         width:60%;
         display:block;
         float:right;
-    }
-
-    #page{
-        width:80%;
     }
 }
 
@@ -530,9 +516,5 @@ footer a {
 @media screen and (min-width:1300px){
     header{
         width:70%;
-    }
-
-    #page{
-        width:50%;
     }
 }
