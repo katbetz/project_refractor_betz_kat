@@ -162,10 +162,8 @@ nav a:hover, nav .current_page_item a {
 
 .more,
 .comments {
-    display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
+    display: inline-block;
+    padding: 7px 15px;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
