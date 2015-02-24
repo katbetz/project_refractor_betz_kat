@@ -1,10 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    background: #050505 url(../img/img01.jpg) repeat;
+    background: #FFFFFF url(../img/img05.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .9em;
     color: #5B5B5B;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1300px;
 }
 
 h1, h2, h3 {
@@ -34,22 +39,8 @@ p, ul, ol {
     line-height: 180%;
 }
 
-ul, ol {
-}
-
 a {
     color: #5E5E5E;
-}
-
-a:hover {
-}
-
-main {
-    background: #FFFFFF url(../img/img05.jpg) repeat;
-}
-
-.container {
-    margin: 0px auto;
 }
 
 /* Header */
@@ -70,86 +61,17 @@ header{
     margin: 0;
     padding: 0;
     color: #FFFFFF;
-}
-
-#logo h1, #logo p {
-}
-
-#logo h1 {
     line-height: 120px;
     letter-spacing: -2px;
     font-size: 3.8em;
 }
 
-#logo h1 a {
+#logo a {
     color: #1F1F1F;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
-}
-
-#logo p {
-    margin: 0;
-    padding: 0px 0 0 0px;
-    letter-spacing: -1px;
-    font: normal 18px Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-    color: #8E8E8E;
-}
-
-#logo p a {
-    color: #8E8E8E;
-}
-
-#logo a {
     border: none;
     background: none;
     text-decoration: none;
-    color: #000000;
-}
-
-/* Splash */
-
-#splash {
-    width: 960px;
-    height: 300px;
-    margin: 0px auto;
-}
-
-/* Search */
-
-#search {
-    float: right;
-    width: 280px;
-    height: 60px;
-    padding: 20px 0px 0px 0px;
-}
-
-#search form {
-    height: 41px;
-    margin: 0;
-    padding: 10px 0 0 20px;
-}
-
-#search fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-#search-text {
-    width: 170px;
-    padding: 6px 5px 2px 5px;
-    border: 1px solid #E7EBED;
-    background: #FFFFFF;
-    text-transform: lowercase;
-    font: normal 11px Arial, Helvetica, sans-serif;
-    color: #5D781D;
-}
-
-#search-submit {
-    width: 50px;
-    height: 22px;
-    border: none;
-    background: #B9B9B9;
     color: #000000;
 }
 
@@ -165,9 +87,6 @@ nav ul {
     padding: 0;
     list-style: none;
     line-height: normal;
-}
-
-nav li {
 }
 
 nav a {
@@ -189,16 +108,6 @@ nav a:hover, nav .current_page_item a {
     background: url(../img/img01.jpg) repeat;
     text-decoration: none;
     color: #FFFFFF;
-}
-
-nav .current_page_item a {
-}
-
-/* Page */
-
-#page {
-    margin: 0 auto;
-    padding: 10px 5px;
 }
 
 /* Content */
@@ -241,9 +150,6 @@ nav .current_page_item a {
     float: right;
 }
 
-.post .meta a {
-}
-
 .post .entry {
     padding: 0px 0px 40px 0px;
     text-align: justify;
@@ -254,27 +160,18 @@ nav .current_page_item a {
     margin-bottom: 30px;
 }
 
-.more {
-    display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
-    margin-right: 10px;
+.more,
+.comments {
+    display: inline-block;
+    padding: 7px 15px;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
 }
 
-.comments {
-    display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
-    background: #222222;
-    color: #FFFFFF;
-    text-align: center;
-    text-decoration: none;
+.more {
+    margin-right: 10px;
 }
 
 /* Sidebar */
@@ -341,93 +238,10 @@ nav .current_page_item a {
     text-decoration: underline;
 }
 
-/* Calendar */
-
-#calendar {
-}
-
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
-}
-
-/* Three Column Footer Content */
-
-#footer-content {
-    overflow: hidden;
-    width: 1000px;
-    margin: 0px auto;
-    color: #D6E2F0;
-}
-
-#footer-content a {
-    color: #92A9B6;
-}
-
-#footer-bg {
-    overflow: hidden;
-    padding: 30px 0px;
-    background: #E8E8E8;
-}
-
-#footer-content h2 {
-    margin: 0px;
-    padding: 0px 0px 20px 0px;
-    letter-spacing: -1px;
-    font-size: 26px;
-    color: #262626;
-}
-
-
-#footer-content #fbox1 {
-    float: left;
-    width: 300px;
-    margin-right: 50px;
-}
-
-#footer-content #fbox2 {
-    float: left;
-    width: 300px;
-}
-
-#footer-content #fbox3 {
-    float: right;
-    width: 300px;
-}
-
-#footer-content a {
-}
-
-#column1 {
-    float: left;
-    width: 290px;
-    margin-right: 30px;
-}
-
-#column2 {
-    float: left;
-    width: 280px;
-}
-
-#column3 {
-    float: right;
-    width: 260px;
-}
-
 /* Footer */
 
 footer {
+    background: #050505 url(../img/img01.jpg) repeat;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
@@ -447,62 +261,9 @@ footer a {
     color: #5E5E5E;
 }
 
-#marketing {
-    overflow: hidden;
-    margin-bottom: 30px;
-    padding: 20px 0px 10px 0px;
-    border-top: 1px solid #E7EBED;
-    border-bottom: 1px solid #E7EBED;
-}
-
-#marketing .text1 {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    letter-spacing: -2px;
-    text-transform: lowercase;
-    font-size: 34px;
-    color: #345E9B;
-}
-
-#marketing .text2 {
-    float: right;
-}
-
-#marketing .text2 a {
-    display: block;
-    width: 252px;
-    height: 38px;
-    padding: 15px 0px 0px 0px;
-    background: url(../img/img07.jpg) no-repeat left top;
-    letter-spacing: -2px;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #FFFFFF;
-}
-
 #banner {
     margin: 0px auto;
-    background: url(../img/img03.png) no-repeat left bottom;
-}
-
-#banner img{
     width:100%;
-}
-
-#banner .content {
-}
-
-
-.list-style1 {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-.list-style1 a {
-    color: #7F7F7F;
 }
 
 @media screen and (min-width:560px){
@@ -511,41 +272,22 @@ footer a {
         display:block;
         float:left;
     }
-    #page{
-        padding:0 20px;
-    }
 }
 
 @media screen and (min-width:750px){
-    #header{
-        width:80%;
-    }
-    
     #logo{
         float:left;
     }
-    
+
     nav{
         width:60%;
         display:block;
         float:right;
     }
-    
-    #banner{
-        max-width:1000px;
-    }
-    
-    #page{
-        width:80%;
-    }
 }
 
 
 @media screen and (min-width:850px){
-    main{
-        overflow:auto;
-    }
-    
     nav li {
         width:20%;
         display:block;
@@ -563,15 +305,5 @@ footer a {
     }
     footer{
         clear:both;
-    }
-}
-
-@media screen and (min-width:1300px){
-    header{
-        width:70%;
-    }
-
-    #page{
-        width:50%;
     }
 }
